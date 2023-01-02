@@ -1,0 +1,61 @@
+<style>
+* {
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+ 
+/*style for body tag */
+body {
+margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+background-color: brown;
+}
+/*style for content */
+.content {
+background-color: black;
+padding:30px;
+}
+/*style for header */
+.header { 
+  padding: 120px;
+background-image: url("welcomee.jpg");
+color:black;
+position: sticky;
+text-align: center;
+}
+
+/*style for navigation menu */
+.menu {
+    overflow: hidden;
+    padding:10px;
+	background-color: dark brown ;
+}
+
+/*style for link menu */
+.menu a {
+float: left;
+display: block;
+color: black;
+text-align: center;
+padding:  10px  50px;
+text-decoration: blink;
+}
+
+/*style for hover menu */
+.menu a:hover {
+background-color: black;
+color: white;
+}
+
+.footer {
+position: fixed;
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: black;
+color: white;
+text-align: left;
+}
+
+</style>
+
